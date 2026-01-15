@@ -44,14 +44,11 @@ Thumbs.db
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
 
 # Environment/secrets (safety)
-.env
-.env.*
 .claude/settings.json
 .claude/*.local.json
 config.toml
@@ -82,3 +79,5 @@ temp/
 # ralph
 .agents/
 .ralph/
+config.bat
+node_modules
